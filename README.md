@@ -26,15 +26,6 @@ Layer installation varies depending on your OpenEmbedded distribution. These ins
 		"
 	```
 
-2. Add `meta-nodejs-contrib` layer to `EXTRALAYERS` in `bblayers.conf`. For example:
-
-        ```bitbake
-                EXTRALAYERS +=" \
-			${TOPDIR}/sources/meta-nodejs \
-                        ${TOPDIR}/sources/meta-nodejs/meta-nodejs-contrib \
-                "
-        ```
-
 Bitbake classes 
 ===============
 
