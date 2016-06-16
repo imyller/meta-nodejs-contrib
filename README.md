@@ -1,7 +1,11 @@
 meta-nodejs-contrib
 ====================
 
-OpenEmbedded layer for [Node.js](https://nodejs.org/ "Node.js") related software and helper classes. 
+This OpenEmbedded layer is intended to be used as an extension of [`meta-nodejs`](http://layers.openembedded.org/layerindex/branch/master/layer/meta-nodejs/) layer to provide community contributed package recipes and Bitbake helper classes.
+
+[`meta-nodejs`](http://layers.openembedded.org/layerindex/branch/master/layer/meta-nodejs/) provides latest [Node.js](https://nodejs.org/ "Node.js") runtime package recipes for current, long-term support, maintenance and legacy release lines.
+
+Community contributions to this layer are welcome!
 
 Dependencies
 ============
