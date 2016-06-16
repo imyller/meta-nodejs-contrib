@@ -1,4 +1,4 @@
-meta-nodejs-contrib
+meta-nodejs-contrib <img src="https://github.com/nodejs/nodejs.org/raw/master/static/images/logos/nodejs-new-black.png" width="128" align="right">
 ====================
 
 This OpenEmbedded layer is intended to be used as an extension of [`meta-nodejs`](http://layers.openembedded.org/layerindex/branch/master/layer/meta-nodejs/) layer to provide community contributed package recipes and Bitbake helper classes.
