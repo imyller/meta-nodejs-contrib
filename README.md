@@ -7,14 +7,6 @@ This OpenEmbedded layer is intended to be used as an extension of [`meta-nodejs`
 
 Community contributions to this layer are welcome!
 
-Dependencies
-============
-
-`meta-nodejs-contrib` depends on following layers:
-
- * [`openembedded-core`](http://layers.openembedded.org/layerindex/branch/master/layer/openembedded-core/)
- * [`meta-nodejs`](http://layers.openembedded.org/layerindex/branch/master/layer/meta-nodejs/)
-
 Installation
 ============
 
@@ -29,6 +21,13 @@ Layer installation varies depending on your OpenEmbedded distribution. These ins
 			${TOPDIR}/sources/meta-nodejs-contrib \
 		"
 	```
+	
+## Dependencies
+
+`meta-nodejs-contrib` depends on following layers:
+
+ * [`openembedded-core`](http://layers.openembedded.org/layerindex/branch/master/layer/openembedded-core/)
+ * [`meta-nodejs`](http://layers.openembedded.org/layerindex/branch/master/layer/meta-nodejs/)
 
 Bitbake classes 
 ===============
