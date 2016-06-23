@@ -7,8 +7,8 @@ PR = "r1"
 
 SRC_URI = "https://github.com/imyller/node-bcryptjs-cli/archive/v${PV}.tar.gz;name=module;downloadfilename=${PN}-${PV}.tar.gz"
 
-SRC_URI[module.md5sum] = "d74b6c2568dd237b11c6780ddb5add91"
-SRC_URI[module.sha256sum] = "af62f54b68df11fcbc3eac79d87c08458b89841f49c733cf6a3cc3364c43db8c"
+SRC_URI[module.md5sum] = "e1bf1f191f81208d0f2585fa817d0d6b"
+SRC_URI[module.sha256sum] = "f8b13900b5a1c4869e59c44f87e9831deeca82fa36002cfaa84e273d9d4ad52a"
 
 S = "${WORKDIR}/node-bcryptjs-cli-${PV}"
 
