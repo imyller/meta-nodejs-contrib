@@ -7,8 +7,8 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=4677f24cba62224b999bcb8da6e05fb4"
 
 SRC_URI = "https://github.com/mishoo/UglifyJS2/archive/v${PV}.tar.gz"
 
-SRC_URI[md5sum] = "27784630dfe56a5c0fcb77e2d8b3ccba"
-SRC_URI[sha256sum] = "be8a33a465dc21a4ecb0decd909d5d9528240cb14cc7acdba9fc60ea45d09e39"
+SRC_URI[md5sum] = "985dc1236e740e0abf24b1edf23fde74"
+SRC_URI[sha256sum] = "8b122c32cdd5d8b4692e2ad0a8374b91aca5eb563853c5e67fe5cce76016d4f2"
 
 S = "${WORKDIR}/UglifyJS2-${PV}" 
 
