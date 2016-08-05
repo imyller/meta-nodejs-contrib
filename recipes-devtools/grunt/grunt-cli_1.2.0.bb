@@ -15,4 +15,11 @@ INSANE_SKIP_${PN} += "file-rdeps"
 
 inherit npm-install-global
 
+#Seperate Zsh script for those that want it without breaking those that don't
+PACKAGES =+ "${PN}-zsh"
+FILES_${PN}-zsh = "${exec_prefix}/lib/node_modules/grunt-cli/completion/zsh"
+
+#The disable warning about missing zsh
+INSANE_SKIP_${PN} += "file-rdeps"
+
 BBCLASSEXTEND = "native nativesdk"
