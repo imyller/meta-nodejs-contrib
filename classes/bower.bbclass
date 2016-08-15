@@ -18,6 +18,9 @@ oe_runbower() {
 	export bower_storage_links="${WORKDIR}/.bower/links"
 	export bower_registry="${BOWER_REGISTRY}"
 
+	export http_proxy="${http_proxy}"
+	export https_proxy="${https_proxy}"
+
 	${BOWER} --config.color=false --config.interactive=false ${BOWER_FLAGS} "$@" || die "oe_runbower failed"
 
 }
