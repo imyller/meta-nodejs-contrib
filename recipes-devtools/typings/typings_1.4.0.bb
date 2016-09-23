@@ -6,8 +6,8 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=298525826e29612d4180abda579d8430"
 
 SRC_URI = "https://github.com/typings/typings/archive/v${PV}.tar.gz"
 
-SRC_URI[md5sum] = "a337c11222e4a0fe068b3bf5c5395a38"
-SRC_URI[sha256sum] = "8a62118ec226c6211fbea45e1ada0b59d6a919dfecedbe33a88a1d46706f6f7f"
+SRC_URI[md5sum] = "3bde63bf66d6d5580c9d8b5e14aebe83"
+SRC_URI[sha256sum] = "bbcabc88efd0267a6e176353c0062ea0b881b6abd92b409dc3f550aaa3e97c30"
 
 inherit npm-install-global allarch
 
