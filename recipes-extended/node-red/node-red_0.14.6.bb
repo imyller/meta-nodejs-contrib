@@ -8,12 +8,16 @@ SRC_URI = " \
 	https://github.com/${PN}/${PN}/releases/download/${PV}/${PN}-${PV}.zip;name=pkg \
 "
 
-SRC_URI[pkg.md5sum] = "042bda2a7a6f67d769b8f0d580b7d475"
-SRC_URI[pkg.sha256sum] = "3f720874629d93e62b6833f8e0397286e8268a3b876e712c4d7f69bd340ca96c"
+SRC_URI[pkg.md5sum] = "b89a1309b687af9845d0ae593988e3de"
+SRC_URI[pkg.sha256sum] = "d4ce01c646550efa96b7c8f9fd117c713d994c9cecd6fc9a53944dd18b384b66"
 
 S = "${WORKDIR}/${PN}-${PV}"
 
 inherit npm-install-global
+
+do_configure() {
+	:
+}
 
 INHIBIT_PACKAGE_DEBUG_SPLIT = "1"
 
