@@ -2,7 +2,6 @@ DESCRIPTION = "Production process manager for Node.js apps with a built-in load 
 
 LICENSE = "AGPL-3.0"
 LIC_FILES_CHKSUM = "file://GNU-AGPL-3.0.txt;md5=9f9fa01c099265d62f73735e404ff8bb"
-PR = "r1"
 
 SRC_URI = "https://github.com/Unitech/pm2/archive/${PV}.tar.gz;name=src"
 

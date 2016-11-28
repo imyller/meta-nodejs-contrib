@@ -3,8 +3,6 @@ DESCRIPTION = "A simple CLI tool for ensuring that a given script runs continuou
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=da5360871cfc7e3df08cde6a2adeac25"
 
-PR = "r1"
-
 SRC_URI = "https://github.com/foreverjs/forever/archive/${PV}.tar.gz;name=src"
 
 SRC_URI[src.md5sum] = "d9a7186766b35212cdd70fcb5ddfc0bd"
