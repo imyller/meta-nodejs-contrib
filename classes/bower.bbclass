@@ -5,7 +5,7 @@ PACKAGE_DEBUG_SPLIT_STYLE = "debug-file-directory"
 BOWER ?= "bower"
 BOWER_FLAGS ?= ""
 
-BOWER_REGISTRY ?= "https://bower.herokuapp.com"
+BOWER_REGISTRY ?= "https://registry.bower.io"
 
 # Target bower
 
