@@ -9,8 +9,8 @@ PACKAGE_ARCH = "all"
 
 SRC_URI = "https://github.com/gulpjs/gulp-cli/archive/v${PV}.tar.gz"
 
-SRC_URI[md5sum] = "6dcb80662d819c1dedb591bd4bba9bd5"
-SRC_URI[sha256sum] = "8665f199d31dc6508673244742cd9b6d9c08e8d278d4f70f7fefbc30ad3ff9ba"
+SRC_URI[md5sum] = "cf8f3c4d385fad98ffe0f073211fce7a"
+SRC_URI[sha256sum] = "c95a8c2c59b8cfbe3d4d1092021d24287e9635e8f83aea3bfe83f053b37f49a8"
 
 INSANE_SKIP_${PN} += "file-rdeps"
 
