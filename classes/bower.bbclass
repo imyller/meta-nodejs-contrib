@@ -13,7 +13,7 @@ oe_runbower() {
 
 	bbnote ${BOWER} ${BOWER_FLAGS} "$@"
 
-	export bower_storage_packages="${WORKDIR}/.bower/packages"
+	export bower_storage_packages="${DL_DIR}/.bower"
 	export bower_storage_registry="${WORKDIR}/.bower/registry"
 	export bower_storage_links="${WORKDIR}/.bower/links"
 	export bower_registry="${BOWER_REGISTRY}"
